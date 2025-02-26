@@ -1,0 +1,441 @@
+# Abdurrahman-
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML document</title>
+ <link rel="stylesheet" href="style.css">
+ <style>* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+h1{
+  background-color: green;
+  width: 100%
+  height: 50px;
+    align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.flex-container1{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  flex-direction: : row;
+  display:flex;
+  gap:1px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+flex-item{
+  background-color: red;
+
+
+align-items: center;
+text-align: center;
+align-content: center;
+}
+.item1{
+  background-color: green;
+  width: 192px;
+  height: 122px;
+ 
+  align-items: center;
+  text-align: center;
+align-content: center;
+}
+.item2{
+  background-color: blue;
+  width: 100px;
+  height: 122px;
+ align-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+.flex-container2{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  flex-direction: : row;
+  display:flex;
+  gap:1px;
+  flex-wrap: wrap;
+  justify-content: center
+
+}
+.item3 {
+  background-color: brown;
+  width: 100px;
+  height: 122px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  
+}
+.item4 {
+  background-color: brown;
+  width: 192px;
+  height: 122px;
+  justify-content: center;
+  align-items:right;
+  text-align: center;
+  align-content: center;
+}
+h1{
+  background-color: greenyellow;
+  width: 100%
+  height: 50px;
+    align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
+}
+h2{
+  background-color: greenyellow;
+  width: 100%
+  height: 30%;
+    align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
+}
+.section{
+  
+  background: red;
+}
+.flex-container3{
+    width: 100%;
+height: auto;
+align-items: center;
+flex-direction: : row;
+
+justify-content: center;
+padding: 7 7 7 7;
+
+
+
+
+}
+.contact1{
+  background-color: navajowhite;
+width: 100%;
+height:auto;
+justify-content: center;
+align-items:right;
+text-align: center;
+align-content: center
+
+}
+.contact2{
+    background-color: navajowhite;
+width: 100%;
+height:100px;
+justify-content: center;
+align-items:right;
+text-align: center;
+align-content: center
+
+}
+.flex-container4{
+   width: 100%;
+  height: 100px;
+  align-items: center;
+  flex-direction: : row;
+  display:flex;
+  justify-content: center;
+  gap:2px;
+justify-content: space-evenly;
+
+
+}
+.contact3{background-color: greenyellow;
+width: 400px;
+height: 122px;
+
+align-items: center;
+text-align: center;
+align-content: center;
+  
+}
+
+.contact4{
+  background-color: greenyellow;
+width: 400px;
+height: 122px;
+
+align-items: center;
+text-align: center;
+align-content: center;
+}
+.contact5{
+  background-color: greenyellow;
+width: 400px;
+height: 122px;
+
+align-items: center;
+text-align: center;
+align-content: center
+}
+h2{
+   background-color: greenyellow;
+  width: 100%
+  height: 50px;
+    align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
+}*/
+section{
+  
+  height: 1000px;
+  width: 70%;
+  margin: auto;
+}
+h3{
+  width: 100%;
+  text-align: center;
+  padding: 3px;
+}
+.first{
+  width: 100%;
+  height: 130px;
+  display: flex;
+  gap:5px;
+}
+.first-child-one{
+  background-color: purple;
+  width:33.33%;
+  height: 100%;
+}
+.first-child-two{
+  width:33.33%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  
+}
+.first-childtwochild{
+  background-color: pink;
+  width: 100%;
+  height: 50%;
+  
+}
+.first-child-three {
+  background-color: purple;
+  width: 33.33%;
+  height:100%;
+} 
+.first2{
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: space-around
+}
+.first-itemone{
+  background-color: blue;
+  width:30%;
+  height: 100%;
+}
+.first-itemtwo{
+  background-color: blue;
+  width:30%;
+  height: 100%;
+}
+.first-itemthree {
+  background-color: blue;
+  width: 30%;
+  height: 100%;
+}
+  .first3{
+    background-color: darkslateblue ;
+  width: 90%;
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  margin: auto;
+}
+.first-homeone{
+  background-color: white;
+  width:20%;
+  height: 50%;
+}
+.first-hometwo{
+background-color: white;
+  width:20%;
+  height: 50%;
+}
+.first-homethree {
+background-color: white;
+  width: 20%;
+  height: 50%;
+}
+  .first4{
+   
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 5px;
+   
+  }
+  .first-carone{
+  background-color:white ;
+  width: 30%;
+  height: 100%;
+   display: flex;
+   flex-direction:column;
+gap:10px;
+margin: auto;
+
+align-items: center;
+    
+  }
+  .first-kifayat{
+ background-color:darkslateblue; 
+    width: 70%;
+    height:15%
+    
+    
+  }
+    .first-cartwo{
+  background-color: white;
+  width: 30%;
+  height: 100%; 
+ display:flex;
+ flex-direction: column;
+ gap: 1px;
+}
+.first-hasan{
+  background-color: red;
+  width: 100%;
+ height: 50%;
+}
+      .first-carthree{
+  background-color: white;
+  width: 30%;
+  height: 100%; 
+ display:flex;
+ flex-direction: column;
+ gap: 1px;
+}
+.first-sahil{
+  background-color: red;
+  width: 100%;
+ height: 50%;
+}
+      .first-carfour{
+  background-color: white;
+  width: 30%;
+  height: 100%; 
+ display:flex;
+ flex-direction: column;
+ gap: 1px;
+}
+.first-truck{
+  background-color: red;
+  width: 100%;
+ height: 50%;
+}</style>
+</head>
+<body>
+ <section><br><br>
+   <h3>Bootstrap</h3>
+   <div class="first">
+  <div class="first-child-one"></div>
+  <div class="first-child-two">
+<div class="first-childtwochild"></div>
+<div class="first-childtwochild"></div>
+  </div>
+  <div class="first-child-three"></div>
+   </div>
+   <br>
+   <div class="first2">
+  <div class="first-itemone"></div>
+  <div class="first-itemtwo"></div>
+  <div class="first-itemthree"></div>
+  </div>
+     <br>
+   <div class="first3">
+  <div class="first-homeone">1</div>
+  <div class="first-hometwo">2</div>
+  <div class="first-homethree">3</div>
+  </div>
+  <br>
+  
+   <div class="first4">
+     <div class="first-carone">
+       <div class="first-kifayat"></div>
+     <div class="first-kifayat"></div>
+     <div class="first-kifayat"></div>
+     <div class="first-kifayat"></div>
+     <div class="first-kifayat"></div>
+     </div>
+  <div class="first-cartwo">
+  <div class="first-hasan">1</div>
+<div class="first-hasan">2</div>
+  </div>
+  <div class="first-carthree">
+ <div class="first-sahil">1</div>
+<div class="first-sahil">2</div>
+</div>
+  <div class="first-carfour">
+ <div class="first-truck">1</div>
+<div class="first-truck">2</div>
+</div>
+  </div>
+ </section>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <br><br><br><br><br><br>
+  <h1>Header</h1>
+.<div class="flex-container1"> .<div class="flex-item item1">item</div>.<div class="flex-item item2">item</div>
+  </div>
+  .<div class="flex-container2">  .<div class="flex-item item3">item</div>
+ .<div class="flex-item item4">item</div>
+</div>
+<h1>Footer</h1>
+<br><br><br><br><br><br>
+
+  
+
+.<div class="flex-container3">
+  <h2>logo</h2>
+.<div class="flex-contact contact1">There is line</div>
+.<div class="flex-contact contact2">second line</div></div>
+  .<div class="flex-container4">
+    .<div class="flex-contact contact3">contact</div>
+.<div class="flex-contact contact4">contact</div>
+.<div class="flex-contact contact5">contact</div>
+</div>
+<br>
+  <h2>bottom</h2>
+
+  
+
+
+
+
+
+
+
+</body>
+
+</html>
